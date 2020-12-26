@@ -3,3 +3,4 @@ There is a post feature also available in which we can post any image our a capt
 AnyOne can like and comment to our post. We can also change our profile pictue.
 In chat feature, we can see who is online and who did message to us.
 We can also see that the message send by us to other is Seen or not.
+I used Firebase Database and Storage to store chat and posts.
