@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/logingradient"
+    tools:context=".LogInActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Log In"
+    android:gravity="center"
+    android:textSize="35sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:layout_weight="3"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/email"
+       android:hint="Enter Your Email"
+       android:textColor="@color/black"
+       android:textSize="23sp"
+       android:layout_weight="1"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+      android:gravity="bottom" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Enter Your Password"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+    android:password="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="bottom">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/loginnow"
+      android:text="LogIn Now"
+      android:textAllCaps="false"
+      android:textSize="27sp"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:textColor="@color/white"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/loginbutton" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If Not A Member, Create New Account ->"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_weight="3"
+        android:id="@+id/createnewacc"/>
+       </LinearLayout>

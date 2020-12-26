@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/useritemimage"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:src="@drawable/usericon"
+        android:layout_marginLeft="5dp" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/useritemonline"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+       android:layout_gravity="bottom"
+     android:src="#02FA0C" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/linearlayout11">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/useritemname"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+    android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="21sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="20dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/useritemmessage"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+      android:layout_gravity="center_vertical"
+      android:visibility="invisible"
+        android:src="#0128FF" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="0.1dp"
+       android:background="@color/black"
+       android:layout_marginTop="5dp"/>
+</LinearLayout>
